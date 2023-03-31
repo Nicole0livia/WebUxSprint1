@@ -1,0 +1,50 @@
+body {
+    margin: 40px;
+    font-family: 'Helvetica';
+    color: #F1EDEE;
+    font-size: 20px;
+    letter-spacing: 3px;
+    margin-top: 3vw;
+    margin-bottom: 0;
+    background-color: #3D5467;
+}
+
+h1 {
+    margin: 40px auto;
+    text-align: center;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    width: 440px;
+    margin: 10px auto;
+    grid-gap: 10px;
+}
+
+.wrapper2 {
+    text-align: center;
+    margin: 10px auto;
+}
+
+.box {
+    background-color: #F1EDEE;
+    color: #F1EDEE;
+    border-radius: 5px;
+    padding: 20px;
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+}
+
+.box.mine {
+    background-color: #DB5461;
+}
+
+.box.opponent {
+    background-color: #F3DE8A;
+}
+
+.hidden {
+    display: none;
+}
